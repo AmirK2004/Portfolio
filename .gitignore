@@ -1,0 +1,7 @@
+build/
+# Ignore node modules
+node_modules/
+
+# Ignore build cache
+.cache/
+
