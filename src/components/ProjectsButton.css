@@ -1,0 +1,182 @@
+.Projects-Button {
+  width: fit-content;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 15px;
+  gap: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: linear-gradient(120deg, rgb(150, 86, 199), rgb(98, 47, 138));
+  transition: all 0.3s;
+  box-shadow: 0px 5px 5px rgba(144, 0, 255, 0.166);
+}
+
+.IconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+
+.svgBG {
+  width: 18px;
+  height: auto;
+}
+
+.svgFG {
+  width: 7px;
+  height: auto;
+  z-index: 2;
+  position: absolute;
+}
+
+.text {
+  color: rgb(240, 240, 240);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Projects-Button:hover .svgFG {
+  animation: clockwise 2s linear infinite;
+}
+
+.Projects-Button:hover .svgBG {
+  animation: anti-clockwise 2s linear infinite;
+}
+
+@keyframes clockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes anti-clockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.Projects-Button:hover {
+  background-color: rgb(119, 57, 166);
+}
+
+/* House Icon Styles */
+.house-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.house-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 8px solid currentColor;
+}
+
+.house-icon::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 20px;
+  height: 12px;
+  border: 2px solid currentColor;
+  border-top: none;
+  border-radius: 0 0 2px 2px;
+}
+
+/* Person Icon Styles */
+.person-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.person-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+}
+
+.person-icon::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 10px;
+  border: 2px solid currentColor;
+  border-radius: 0 0 6px 6px;
+  border-top: none;
+}
+
+/* Book Stack Icon Styles */
+.book-stack-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.book-stack-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 2px;
+  border: 2px solid currentColor;
+  border-radius: 1px;
+}
+
+.book-stack-icon::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  width: 16px;
+  height: 2px;
+  border: 2px solid currentColor;
+  border-radius: 1px;
+}
+
+.book-stack-icon span {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  width: 16px;
+  height: 2px;
+  border: 2px solid currentColor;
+  border-radius: 1px;
+} 
