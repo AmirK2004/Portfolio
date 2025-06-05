@@ -13,16 +13,15 @@ const Projects = () => {
       title: 'BackTrack (In-Progress)',
       description: 'A unique mobile app that lets users snap a photo of their receipt, detects return deadlines based on store policies, and sends reminders before expiration.',
       imageUrl: RevioIMG,
-      technologies: ['React Native', 'Python', 'SQLite', 'OCR.space', 'Supabase']
+      technologies: ['React Native', 'Python', 'SQLite', 'Google Cloud Vision', 'Supabase']
     },
     {
       id: 2,
       title: 'PrepMaster',
-      description: 'Web-based application that helps students prepare for exams by generating practice tests from study materials (PDF, DOCX, txt, etc.).',
+      description: 'Web-based application that helps students prepare for exams by generating practice tests from study materials (PDF, txt).',
       imageUrl: PrepMe,
-      technologies: ['React', 'Firebase', 'Tailwind CSS'],
-      demoLink: 'https://example.com',
-      codeLink: 'https://github.com/yourusername/project2'
+      technologies: ['Next.js', 'React', 'Typescript', 'Node.js', 'Tailwind CSS', 'OpenAI API'],
+      demoLink: 'https://prepmaster.io'
     },
     {
       id: 3,
@@ -30,8 +29,7 @@ const Projects = () => {
       description: 'Real-time guitar chord classifier using OpenCV to help beginners correct finger placement, a computer vision tool inspired by teaching experience.',
       imageUrl: 'https://i.ytimg.com/vi/HZyX2p4e_iI/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgTihEMA8=&rs=AOn4CLCbcaJSwSkfPzAj4g_HpgbWonQ5ag',
       technologies: ['Python', 'OpenCV', 'MediaPipe', 'TensorFlow'],
-      demoLink: 'https://example.com',
-      codeLink: 'https://github.com/yourusername/project3'
+      codeLink: 'https://github.com/AmirK2004'
     },
     {
       id: 4,
@@ -47,8 +45,8 @@ const Projects = () => {
       title: 'Personal Portfolio',
       description: 'A polished, responsive frontend built with React and Tailwind CSS, designed to cleanly present my work across all devices. Emphasizes simplicity, fast load times, and smooth user experience, with modular components that make it easy to update and scale as new projects are added.',
       imageUrl: PortfolioIMG,
-      technologies: ['React', 'Tailwind CSS', 'React Router'],
-      codeLink: 'https://github.com/yourusername/portfolio'
+      technologies: ['React.js', 'Tailwind CSS', 'CSS', 'JavaScript'],
+      codeLink: 'https://github.com/AmirK2004/Portfolio'
     },
   ], []);
 
