@@ -42,7 +42,7 @@ const ProjectCard = ({ title, description, imageUrl, technologies, demoLink, cod
                 rel="noopener noreferrer" 
                 className="bg-primary text-white px-3 py-1.5 rounded text-sm hover:bg-blue-600 transition-colors"
               >
-                Live Demo
+                View Project
               </a>
             )}
             {codeLink && (
