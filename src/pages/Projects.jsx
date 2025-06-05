@@ -20,7 +20,7 @@ const Projects = () => {
       title: 'PrepMaster',
       description: 'Web-based application that helps students prepare for exams by generating practice tests from study materials (PDF, txt).',
       imageUrl: PrepMe,
-      technologies: ['Next.js', 'React', 'Typescript', 'Node.js', 'Tailwind CSS', 'OpenAI API'],
+      technologies: ['Next.js', 'React', 'Node.js', 'Tailwind CSS', 'OpenAI API'],
       demoLink: 'https://prepmaster.io'
     },
     {
