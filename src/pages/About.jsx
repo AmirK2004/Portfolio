@@ -4,9 +4,9 @@ import Photo from '../assets/Photo.jpg';
 
 const About = () => {
     const skills = [
-      { category: 'Frontend', items: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'] },
-      { category: 'Backend', items: ['Node.js', 'Express', 'MongoDB'] },
-      { category: 'Tools', items: ['Git', 'Webpack', 'VS Code', 'Figma'] },
+      { category: 'Languages', items: ['Java', 'Python', 'SQL', 'C/C++', 'JavaScript'] },
+      { category: 'Frameworks & Libraries', items: ['React', 'Node.js', 'Express.js', 'Spring Boot'] },
+      { category: 'Tools & Technologies', items: ['Git', 'VS Code', 'IntelliJ', 'MongoDB', 'MySQL'] },
     ];
 
     const containerVariants = {
